@@ -24,7 +24,7 @@ jobs:
   update:
     runs-on: ubuntu-latest
     # Only run this job on the source repository, skipping forks.
-    if: ${{ github.repository == 'TheBevyFlock/bevy_quickstart' }}
+    if: ${{ github.repository == 'zeb-hicks/growing-dark' }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
